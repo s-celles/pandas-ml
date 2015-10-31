@@ -18,11 +18,4 @@ conda install numpy scipy matplotlib scikit-learn pandas patsy statsmodels nose
 
 python -m pip install python-coveralls coverage
 python -m pip install graphviz
-
-# xgboost
-git clone https://github.com/dmlc/xgboost.git
-cd xgboost
-./build.sh
-cd python-package
-python setup.py install
-cd ../..
+python -m pip install xgboost
